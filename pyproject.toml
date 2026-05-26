@@ -1,0 +1,13 @@
+[project]
+name = "patch-grounded-impact-analysis"
+version = "0.1.0"
+description = "Experiment harness and replication artifacts for patch-grounded software change impact analysis and regression test triage."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+norecursedirs = ["benchmark", "runs", "paper_springer", "paper"]
+python_files = ["test_*.py"]

@@ -1,0 +1,55 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# JavaScript dependencies in benchmark workspaces
+node_modules/
+npm-debug.log*
+
+# Experiment runtime scratch space
+runs/
+
+# Dataset and derived-result bundles are distributed separately.
+analysis/outputs/
+benchmark/repos/
+benchmark/tasks.json
+
+# Manuscript and writing-only material stay local, not in the code repo.
+paper/
+paper_springer/
+docs/GITHUB_UPLOAD.md
+docs/harness_plan.md
+docs/positioning.md
+docs/research_notes/
+docs/study_plan.md
+docs/title_abstract_rqs.md
+build_springer_source.py
+analysis/plot_scaffold_atlas.py
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# LaTeX build products and generated submission bundles
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+*.zip
+paper_springer/_template/
+paper_springer/springer_submission_source/
+
+# Keep experiment code, scaffold templates, and minimal reproducibility docs tracked.

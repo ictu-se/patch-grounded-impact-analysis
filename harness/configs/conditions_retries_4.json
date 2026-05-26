@@ -1,0 +1,12 @@
+[
+  {
+    "condition_id": "guidance_minimal_skill_concise_medium",
+    "guidance_mode": "minimal",
+    "skill_mode": "concise_task_skill",
+    "autonomy_mode": "medium",
+    "max_steps": 22,
+    "max_commands": 12,
+    "allow_network": false,
+    "retry_budget": 4
+  }
+]
