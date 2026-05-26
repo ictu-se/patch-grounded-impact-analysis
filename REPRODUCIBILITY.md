@@ -72,6 +72,6 @@ python analysis/build_surface_tables.py
 python analysis/bootstrap_uncertainty.py
 ```
 
-## GitHub Status
+## Repository Status
 
 Public code repository: https://github.com/ictu-se/patch-grounded-impact-analysis

@@ -1,8 +1,8 @@
 # Patch-Grounded Software Change Impact Analysis
 
-This repository contains the experiment harness, benchmark scaffold assets, analysis scripts, and reproducibility instructions for the study "Patch-Grounded Software Change Impact Analysis and Regression Test Triage with Large Language Models."
+This repository contains the experiment harness, benchmark scaffold assets, analysis scripts, and reproducibility instructions for the study.
 
-The study evaluates how process and context scaffolds affect coding-agent behavior on small software repair tasks. This GitHub repository contains only the code and minimal instructions needed to rerun the experiments. Dataset files, generated run artifacts, manuscript files, and writing notes are not uploaded here.
+The study evaluates how process and context scaffolds affect coding-agent behavior on small software repair tasks. This code repository contains only the code and minimal instructions needed to rerun the experiments. Dataset files, generated run artifacts, manuscript files, and writing notes are not uploaded here.
 
 Public repository: https://github.com/ictu-se/patch-grounded-impact-analysis
 
@@ -81,8 +81,8 @@ python analysis/bootstrap_uncertainty.py
 
 The main derived files are written to `analysis/outputs/`. That directory is ignored by Git because it is generated output, not source code.
 
-## GitHub Preparation
+## Repository Preparation
 
 The `.gitignore` file keeps datasets, generated outputs, runtime checkpoints, logs, manuscript files, LaTeX build products, PDFs, and ZIP bundles out of version control.
 
-Public GitHub URL: https://github.com/ictu-se/patch-grounded-impact-analysis
+Public repository URL: https://github.com/ictu-se/patch-grounded-impact-analysis
